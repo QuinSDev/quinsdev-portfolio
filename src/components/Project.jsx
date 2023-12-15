@@ -14,8 +14,8 @@ export const Project = () => {
   const next = () => setActiveIndex((curr) => (curr === Projects.length - 1 ? 0 : curr + 1));
 
   return (
-    <div className="xl:px-32 py-8 lg:px-20 md:px-20 h-full component">
-      <h2 className="text-5xl font-bold text-white text-center">
+    <div className="xl:px-32 py-8 lg:px-20 md:px-20 sm:px-16 h-full component">
+      <h2 className="md:text-5xl sm:text-4xl font-bold text-white text-center">
         Lastest <span style={secondColor}>Project</span>
       </h2>
       <div className="mt-4 flex justify-center relative h-full">

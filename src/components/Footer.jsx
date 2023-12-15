@@ -10,7 +10,7 @@ export const Footer = () => {
   return (
     <footer className="footer footer-center h-full">
       <aside>
-        <p className="text-lg text-white">
+        <p className="md:text-lg sm:text-base text-white">
           Copyright <span style={secondColor}>©</span> {currentYear} - All
           right reserved <span style={secondColor}>by</span> QuinSDev
         </p>
