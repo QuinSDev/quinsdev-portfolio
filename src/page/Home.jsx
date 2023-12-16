@@ -36,7 +36,7 @@ export const Home = () => {
         <div className="star2"></div>
         {/* Agrega tantas estrellas como necesites */}
       </div>
-      <div className="h-[100vh]" style={bgHome}>
+      <div className="h-[80vh] sm:h-[100vh]" style={bgHome}>
         <Header />
         <Hero />
       </div>
