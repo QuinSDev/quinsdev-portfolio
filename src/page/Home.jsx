@@ -40,7 +40,7 @@ export const Home = () => {
         <Header />
         <Hero />
       </div>
-      <div className="h-[100vh]" style={bgAbout}>
+      <div className="h-[100vh] bg-black" >
         <AboutMe />
       </div>
       <div className="h-[100vh]" style={bgProject}>
