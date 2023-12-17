@@ -8,26 +8,13 @@ export const Project = () => {
     color: "var(--second-color)",
   };
 
-  const [activeIndex, setActiveIndex] = useState(0); // Índice de la tarjeta activa
-
-  const prev = () => setActiveIndex((curr) => (curr === 0 ? Projects.length - 1 : curr - 1));
-  const next = () => setActiveIndex((curr) => (curr === Projects.length - 1 ? 0 : curr + 1));
-
   return (
-    <div className="xl:px-32 py-10 px-14 lg:px-20 md:px-20 sm:px-16 h-full component">
+    <div className="px-14 xl:px-32 py-10 lg:px-20 md:px-20 sm:px-16 h-full component">
       <h2 className="md:text-5xl sm:text-4xl text-3xl font-bold text-white text-center">
         Lastest <span style={secondColor}>Project</span>
       </h2>
-      <div className="sm:mt-4 flex justify-center relative h-full">
-        <Carousel projects={Projects} activeIndex={activeIndex} />
-        <div className="absolute inset-0 flex justify-between items-center  ">
-        <button onClick={prev} className="pr-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white">
-            <ChevronLeft size={35} />
-          </button>
-          <button onClick={next} className="pl-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white">
-            <ChevronRight size={35} />
-          </button>
-        </div>
+      <div className="mt-14 flex justify-center h-full">
+        <Carousel projects={Projects}/>
       </div>
     </div>
   );

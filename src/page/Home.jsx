@@ -43,7 +43,7 @@ export const Home = () => {
       <div className="h-[100vh]" style={bgAbout}>
         <AboutMe />
       </div>
-      <div className="h-[100vh]" style={bgProject}>
+      <div style={bgProject}>
         <Project />
       </div>
       <div className=":h-[60vh] bg-black">

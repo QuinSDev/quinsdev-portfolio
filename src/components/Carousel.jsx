@@ -23,20 +23,10 @@ export const Carousel = ({ projects, activeIndex }) => {
   };
 
   return (
-    <div className="relative w-80 flex justify-center items-center component">
+    <div className="w-full grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-14 sm justify-items-center sm:justify-between sm:items-center component">
       {projects.map((project, index) => (
-        <Card
-        key={project.id}
-        className={`absolute h-96 duration-700 ${
-          index === activeIndex ? "scale-105 z-10" : "scale-95 opacity-50"
-        }`}
-        >
-          <CardHeader
-            color="blue-gray"
-            className="relative h-56 group-hover:scale-105 duration-1000"
-          >
-            {" "}
-            {/* Usa 'group-hover' para escalar el CardHeader */}
+        <Card key={project.id} className='w-80 h-96 duration-700 group hover:scale-105 z-10 '>
+          <CardHeader color="blue-gray" className="h-40 sm:h-56 group-hover:scale-105 duration-1000">
             <img src={project.photo} alt="card-image" className="w-full h-full" />
           </CardHeader>
           <CardBody>
