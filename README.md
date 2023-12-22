@@ -6,10 +6,10 @@ Desarrollador de software con experiencia en varios lenguajes de programación. 
 
 ## Habilidades
 
-- **Lenguajes de programación**: Java, JavaScript, Python, ...
-- **Frameworks y bibliotecas**: Spring, React, Django, ...
-- **Bases de datos**: MySQL, PostgreSQL, MongoDB, ...
-- **Herramientas**: Git, Docker, Jenkins, ...
+- **Tecnologías**: Java, JavaScript, HTML5, CSS3, Tailwind CSS
+- **Frameworks y bibliotecas**: Spring, React
+- **Bases de datos**: MySQL
+- **Herramientas**: Git, Photoshop, Illustrator
 
 ## Proyectos Destacados
 
