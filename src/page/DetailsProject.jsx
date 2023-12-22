@@ -50,7 +50,7 @@ export const DetailsProject = ({ openModal, setOpenModal }) => {
             <div className="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:align-middle xl:w-full">
               <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
                 <div className="flex justify-between border-b-2 pb-3">
-                  <h1 className="text-2xl xl:text-3xl leading-6  font-semibold text-gray-900">
+                  <h1 className="text-2xl md:text-3xl leading-6  font-semibold text-gray-900">
                     {selectedProject.tittle}
                   </h1>
                   <button
@@ -72,8 +72,9 @@ export const DetailsProject = ({ openModal, setOpenModal }) => {
                 <div className="flex flex-col-reverse xl:flex-row my-2 justify-between">
                   <video
                     key={videoKey}
-                    className="w-full xl:w-6/12 xl:m-3 my-3 xl:mt-5"
+                    className="w-full  xl:w-6/12 xl:m-3 my-3 lg:mt-5"
                     controls
+                    autoPlay
                   >
                     <source
                       src={selectedProject && selectedProject.video}
@@ -83,7 +84,7 @@ export const DetailsProject = ({ openModal, setOpenModal }) => {
                   </video>
 
                   <div className="mx-1 border-l-2"></div>
-                  <p className="xl:m-3 xl:mt-5 text-sm xl:text-base text-gray-500">
+                  <p className="xl:m-3 xl:mt-5 text-sm sm:text-base lg:text-lg xl:text-base text-gray-500">
                     {selectedProject.description}
                   </p>
                 </div>
@@ -91,7 +92,7 @@ export const DetailsProject = ({ openModal, setOpenModal }) => {
                   <div className="flex">{selectedProject.tecnology}</div>
                   <button
                     onClick={() => window.open(selectedProject.url, "_blank")}
-                    className="w-6 xl:w-9 rounded-full hover:shadow-sm hover:bg-gray-200  text-base font-medium text-whit focus:outline-none sm:w-auto sm:text-sm"
+                    className="w-6 sm:w-7 md:w-9 rounded-full hover:shadow-sm hover:bg-gray-200  text-base font-medium text-whit focus:outline-none sm:text-sm"
                   >
                     <img width="100%" height="100%" src="https://img.icons8.com/material-sharp/36/domain.png" alt="domain"/>
                   </button>
