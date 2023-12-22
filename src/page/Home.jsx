@@ -44,7 +44,7 @@ export const Home = () => {
         <AboutMe />
       </div>
       <div style={bgProject}>
-        <Project />
+        <Project/>
       </div>
       <div className=":h-[60vh] bg-black">
         <Skill />

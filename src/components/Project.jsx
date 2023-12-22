@@ -1,9 +1,14 @@
 import React, { useState } from "react";
 import { Projects } from "../api/Projects";
 import { Carousel } from "./Carousel";
+
 import { ChevronLeft, ChevronRight } from "react-feather";
+import { DetailsProject } from "../page/DetailsProject";
 
 export const Project = () => {
+  const [openModal, setOpenModal] = useState(false);
+  const [selectedProject, setSelectedProject] = useState(null);
+
   const secondColor = {
     color: "var(--second-color)",
   };
@@ -14,8 +19,9 @@ export const Project = () => {
         Lastest <span style={secondColor}>Project</span>
       </h2>
       <div className="mt-14 flex justify-center h-full">
-        <Carousel projects={Projects}/>
+        <Carousel projects={Projects} setOpenModal={setOpenModal} />
       </div>
+      <DetailsProject openModal={openModal} setOpenModal={setOpenModal} />
     </div>
   );
 };

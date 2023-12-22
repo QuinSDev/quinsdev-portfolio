@@ -1,14 +1,19 @@
-import { useState } from 'react'
-import { Home } from './page/Home'
+import React, { useState } from "react";
+import { Home } from "./page/Home";
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [showDetails, setShowDetails] = useState(false);
+
+  const handleShowDetails = () => {
+    setShowDetails(true);
+  }
 
   return (
     <>
       <Home />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

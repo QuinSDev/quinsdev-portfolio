@@ -1,4 +1,4 @@
-import React,{ useState } from "react";
+import React,{ useContext, useState } from "react";
 import {
   Card,
   CardHeader,
@@ -7,11 +7,14 @@ import {
   Typography,
   Button,
 } from "@material-tailwind/react";
+import { ProjectContext } from "../provider/ProjectProvider";
 
-export const Carousel = ({ projects, activeIndex }) => {
-  const secondColor = {
-    color: "var(--second-color)",
-  };
+export const Carousel = ({ projects, setOpenModal }) => {
+  const { detailSelectedProject } = useContext(ProjectContext)
+
+  const handleDetailsSelectedProject = (project) => {
+    detailSelectedProject(project);
+  }
 
   const maxLength = 150; // Define la longitud máxima de la descripción que quieres mostrar
 
@@ -36,7 +39,7 @@ export const Carousel = ({ projects, activeIndex }) => {
             <Typography className="text-base h-auto">{truncateDescription(project.description)}</Typography>
           </CardBody>
           <CardFooter className="pt-0">
-            <Button className=" bg-[#ffd800] text-black hover:shadow-gray-400">
+            <Button className=" bg-[#ffd800] text-black hover:shadow-gray-400" onClick={() => { setOpenModal(true); handleDetailsSelectedProject(project); }}>
               Ver más
             </Button>
           </CardFooter>
