@@ -91,9 +91,9 @@ export const DetailsProject = ({ openModal, setOpenModal }) => {
                   <div className="flex">{selectedProject.tecnology}</div>
                   <button
                     onClick={() => window.open(selectedProject.url, "_blank")}
-                    className="w-9 rounded-full hover:shadow-sm hover:bg-gray-200  text-base font-medium text-whit focus:outline-none sm:w-auto sm:text-sm"
+                    className="w-6 xl:w-9 rounded-full hover:shadow-sm hover:bg-gray-200  text-base font-medium text-whit focus:outline-none sm:w-auto sm:text-sm"
                   >
-                    <img width="36" height="36" src="https://img.icons8.com/material-sharp/36/domain.png" alt="domain"/>
+                    <img width="100%" height="100%" src="https://img.icons8.com/material-sharp/36/domain.png" alt="domain"/>
                   </button>
                 </div>
               </div>
