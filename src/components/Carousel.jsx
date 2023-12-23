@@ -26,7 +26,7 @@ export const Carousel = ({ projects, setOpenModal }) => {
   };
 
   return (
-    <div className="w-full grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-14 sm justify-items-center sm:justify-between sm:items-center component">
+    <div className="w-full grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-14 justify-items-center sm:justify-between sm:items-center component">
       {projects.map((project, index) => (
         <Card key={project.id} className='w-80 h-96 duration-700 group hover:scale-105 z-10 '>
           <CardHeader color="blue-gray" className="h-40 sm:h-56 group-hover:scale-105 duration-1000">

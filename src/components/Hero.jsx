@@ -1,6 +1,10 @@
 import React from "react";
 import logoGithub from "../assets/images/icons8-github.svg"
+import logoGithubAzul from "../assets/images/icons8-github-AZUL.svg"
 import logoLinkedin from "../assets/images/icons8-linkedin.svg"
+import logoLinkedinAzul from "../assets/images/icons8-linkedin-azul.svg"
+import logoInstagram from "../assets/images/icons8-instagram.svg"
+import logoInstagramAzul from "../assets/images/icons8-instagram-Azul.svg"
 
 export const Hero = () => {
 
@@ -18,8 +22,23 @@ export const Hero = () => {
           para explorar proyectos únicos donde la magia de la tecnología cobra
           vida.</p>
           <div className="gap-4 flex mt-6 pt-4 border-t-2 justify-end">
-            <img className="w-9 uppercase cursor-pointer" src={logoGithub} alt="Logo Github" />
-            <img className="w-9 uppercase cursor-pointer" src={logoLinkedin} alt="Logo Linkedin" />
+            <div className="img-container">
+            <a href="https://github.com/QuinSDev" target="_blank">
+              <img className="img w-9 uppercase cursor-pointer" src={logoGithub} alt="Logo Github" />
+              <img className="img-hover w-9 uppercase cursor-pointer" src={logoGithubAzul} alt="Logo Github Azul" /></a>
+            </div>
+            <div className="img-container">
+            <a href="https://www.linkedin.com/in/quinsdev/" target="_blank">
+              <img className="img w-9 uppercase cursor-pointer " src={logoLinkedin} alt="Logo Linkedin" />
+              <img className="img-hover w-9 uppercase cursor-pointer " src={logoLinkedinAzul} alt="Logo Linkedin Azul" /></a>
+            </div>
+            <div className="img-container">
+              <div className="img-instagram rounded-lg"></div>
+                <a href="https://www.instagram.com/quins.dev/" target="_blank">
+                  <img className="img w-full uppercase cursor-pointer " src={logoInstagram} alt="Logo Instagram" />
+                  {/* <img className="img-hover uppercase cursor-pointer " src={logoInstagramAzul} alt="Logo Instagram Azul" /> */}
+                </a>
+            </div>
           </div>
       </div>
     </div>

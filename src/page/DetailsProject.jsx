@@ -13,30 +13,6 @@ export const DetailsProject = ({ openModal, setOpenModal }) => {
 
   return (
     <>
-      {/* <Modal
-        show={openModal}
-        size={modalSize}
-        onClose={() => setOpenModal(false)}
-        className="p-0 flex justify-start"
-      >
-        <Modal.Header>{selectedProject && selectedProject.tittle}</Modal.Header>
-        <Modal.Body>
-          
-          <video key={videoKey} className="w-80" controls autoPlay> // Modifica esta línea
-              <source src={selectedProject && selectedProject.video} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-
-            <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">{selectedProject.description}</p>
-          
-        </Modal.Body>
-        <Modal.Footer>
-          <Button onClick={() => setOpenModal(false)}>I accept</Button>
-          <Button color="gray" onClick={() => setOpenModal(false)}>
-            Decline
-          </Button>
-        </Modal.Footer>
-      </Modal> */}
       {openModal && (
         <div className="fixed z-10 inset-0 overflow-y-auto">
           <div className="flex items-end justify-center min-h-screen xl:block p-6 xl:p-8">

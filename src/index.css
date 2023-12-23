@@ -6,6 +6,53 @@
   --second-color: #ffd800;
 }
 
+.img-container {
+  position: relative;
+  width: 36px; 
+  height: 36px; 
+}
+
+.img, .img-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: clip-path 0.5s ease-in-out;
+}
+
+.img-hover {
+  clip-path: polygon(0 0, 0 100%, 0 100%, 0 0);
+}
+
+.img-container:hover .img-hover {
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+}
+
+.img-instagram {
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 30px; 
+  height: 30px;
+  overflow: hidden;
+}
+
+.img-instagram::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00E9E5;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease-in-out;
+}
+
+.img-container:hover .img-instagram::before {
+  transform: scaleX(1);
+}
+
 .skill-slider {
   display: flex;
   animation: animSkilss 20s linear infinite;
