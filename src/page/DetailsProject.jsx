@@ -50,7 +50,7 @@ export const DetailsProject = ({ openModal, setOpenModal }) => {
                     key={videoKey}
                     className="w-full  xl:w-6/12 xl:m-3 my-3 lg:mt-5"
                     controls
-                    autoPlay
+                    
                   >
                     <source
                       src={selectedProject && selectedProject.video}
