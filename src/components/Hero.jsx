@@ -17,7 +17,8 @@ export const Hero = () => {
       <div className="flex flex-col max-h-full xl:max-w-xl lg:max-w-md lg:justify-start md:justify-center sm:justify-center justify-center">
         <h1 className="xl:text-6xl lg:text-5xl md:text-5xl sm:text-4xl text-3xl lg:text-left text-center font-bold text-white">Sebastian Quintero</h1>
         <h3 className="sm:mt-4 mt-1 lg:text-4xl md:text-3xl sm:text-2xl text-2xl lg:text-left text-center font-bold" style={secondColor}>FullStack Developer</h3>
-        <p className="sm:text-xl text-lg lg:text-left text-center sm:mt-8 mt-5 text-white">Como apasionado desarrollador FullStack, traduzco conceptos creativos
+        <p className="sm:text-xl text-lg lg:text-left text-center sm:mt-8 mt-5 text-white">Como 
+          desarrollador FullStack, traduzco conceptos creativos
           en experiencias digitales excepcionales. Adéntrate en mi portafolio
           para explorar proyectos únicos donde la magia de la tecnología cobra
           vida.</p>

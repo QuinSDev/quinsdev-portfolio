@@ -11,15 +11,17 @@ export const AboutMe = () => {
       <div className="grid flex-grow card rounded-box xl:max-w-2xl lg:max-w-md justify-items-start">
         <div >
           <h2 className="lg:text-5xl md:text-5xl sm:text-4xl text-3xl font-bold text-white">
-            About <span className="" style={secondColor}>Me</span>
+            Sobre <span className="" style={secondColor}>Mí</span>
           </h2>
           <div className="lg:mt-10 md:mt-6 sm:mt-2">
           <h3 className="md:text-3xl sm:text-2xl text-xl text-white">FullStack Developer</h3>
           <p className="mt-4 md:text-xl sm:text-lg text-base text-white">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
-            explicabo mollitia labore sunt eaque iste ipsum, rem quae doloremque
-            quod, architecto cum rerum laboriosam consequatur velit laborum at
-            officiis sed.
+          Soy un apasionado de la tecnología con un amor por el aprendizaje constante. 
+          Mi curiosidad natural me llevó al mundo del desarrollo de software, donde he podido 
+          canalizar mi creatividad y mi amor por la resolución de problemas. A través de proyectos 
+          personales y cursos de formación, he adquirido una sólida comprensión de diversas 
+          tecnologías y lenguajes de programación. Creo firmemente en el poder de la 
+          tecnología para mejorar nuestras vidas y estoy emocionado de ser parte de ese viaje.
           </p>
           </div>
         </div>
