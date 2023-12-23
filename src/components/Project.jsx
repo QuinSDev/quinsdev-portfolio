@@ -7,8 +7,7 @@ import { DetailsProject } from "../page/DetailsProject";
 
 export const Project = () => {
   const [openModal, setOpenModal] = useState(false);
-  const [selectedProject, setSelectedProject] = useState(null);
-
+  
   const secondColor = {
     color: "var(--second-color)",
   };

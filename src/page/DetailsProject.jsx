@@ -4,7 +4,6 @@ import { ProjectContext } from "../provider/ProjectProvider";
 
 export const DetailsProject = ({ openModal, setOpenModal }) => {
   const { selectedProject } = useContext(ProjectContext);
-  const [modalSize, setModalSize] = useState("7x1");
   const [videoKey, setVideoKey] = useState(0);
 
   const handleShow = () => {
@@ -50,7 +49,7 @@ export const DetailsProject = ({ openModal, setOpenModal }) => {
                     key={videoKey}
                     className="w-full  xl:w-6/12 xl:m-3 my-3 lg:mt-5"
                     controls
-                    
+                    autoPlay
                   >
                     <source
                       src={selectedProject && selectedProject.video}
