@@ -1,6 +1,6 @@
 import MercadoQuincho from "../assets/images/mercado-quincho1.png";
 import QuinSDev from "../assets/images/QuinSDev.png"
-import videoMercado from "../assets/videos/Mercado_Quincho.mp4";
+import videoMercado from "../assets/videos/Video-Mercado-Quincho.mp4";
 import java from "../assets/images/icons8-logotipo-de-java-coffee-cup.svg"
 import springBoot from "../assets/images/icons8-logotipo-de-primavera.svg"
 import jwt from "../assets/images/icons8-token-web-java.svg"
