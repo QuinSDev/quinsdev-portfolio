@@ -1,7 +1,9 @@
 import videoMercado from "../assets/videos/Video-Mercado-Quincho.mp4";
 import videoQuinSDev from "../assets/videos/Video-QuinSDev.mp4";
+import videoHangman from "../assets/videos/Video-Hangman.mp4";
 import MercadoQuincho from "../assets/images/mercado-quincho1.png";
-import QuinSDev from "../assets/images/QuinSDev.png"
+import QuinSDev from "../assets/images/QuinSDev.png";
+import RetroHangman from "../assets/images/retro-hangman.png"
 import java from "../assets/images/icons8-logotipo-de-java-coffee-cup.svg"
 import springBoot from "../assets/images/icons8-logotipo-de-primavera.svg"
 import jwt from "../assets/images/icons8-token-web-java.svg"
@@ -38,6 +40,21 @@ export const Projects = [
     },
     {
         id: 2,
+        tittle: "Retro Hangman",
+        description: "Es un juego de ahorcado interactivo que te lleva de vuelta a los días de Windows XP. Con una interfaz de usuario que imita el diseño clásico de Windows XP, este juego de ahorcado ofrece una experiencia nostálgica y divertida. \n\nEn Retro Hangman, los jugadores deben adivinar una palabra oculta, letra por letra. Cada vez que el jugador adivina incorrectamente, se dibuja una parte del ahorcado. Si se dibuja todo el ahorcado antes de que se adivine la palabra, el jugador pierde.",
+        tecnology: [
+            <img key="html5" src={html5} alt="" className="w-6 sm:w-7 md:w-9 mr-1 sm:mr-2 md:mx-2"/>,
+            <img key="css3" src={css3} alt="" className="w-6 sm:w-7 md:w-9 mr-1 sm:mr-2 md:mx-2"/>,
+            <img key="javascript" src={javaScript} alt="" className="w-6 sm:w-7 md:w-9 mr-1 sm:mr-2 md:mx-2"/>,
+            <img key="react" src={react} alt="" className="w-6 sm:w-7 md:w-9 mr-1 sm:mr-2 md:mx-2"/>,
+            <img key="tailwind" src={tailwind} alt="" className="w-6 sm:w-7 md:w-9 mr-1 sm:mr-2 md:mx-2"/>,
+        ],
+        photo : RetroHangman,
+        video: videoHangman,
+        url: "https://retro-hangman.netlify.app/"
+    },
+    {
+        id: 3,
         tittle: "QuinSDev",
         description: "Es mi portafolio personal donde muestro mi pasión y habilidades como desarrollador de software. Aquí encontrarás una variedad de proyectos en los que he trabajado, cada uno de ellos reflejando mi compromiso con el código limpio, el diseño eficiente y la creación de aplicaciones significativas. He trabajado con diversas tecnologías, incluyendo HTML5, CSS3, JavaScript, React y Tailwind CSS, y siempre estoy buscando aprender y crecer. Espero que disfrutes explorando mi trabajo tanto como yo disfruté creándolo.",
         tecnology: [
