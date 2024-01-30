@@ -14,7 +14,7 @@ export const AboutMe = () => {
             Sobre <span className="" style={secondColor}>Mí</span>
           </h2>
           <div className="lg:mt-10 md:mt-6 sm:mt-2">
-          <h3 className="md:text-3xl sm:text-2xl text-xl text-white">FullStack Developer</h3>
+          <h3 className="md:text-3xl sm:text-2xl text-xl text-white">Desarrollador FullStack</h3>
           <p className="mt-4 md:text-xl sm:text-lg text-base text-white">
           Soy un apasionado de la tecnología con un amor por el aprendizaje constante. 
           Mi curiosidad natural me llevó al mundo del desarrollo de software, donde he podido 
@@ -27,7 +27,7 @@ export const AboutMe = () => {
         </div>
       </div>
       <div className="lg:mt-24 md:mt-6 sm:mt-6 mt-6 xl:w-80 lg:w-72 md:w-60 sm:w-60 w-60">
-        <img  src={Perfil} alt="" />
+        <img className="rounded-badge" src={Perfil} alt="" />
       </div>
     </div>
   );

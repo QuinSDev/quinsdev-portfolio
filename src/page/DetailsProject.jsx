@@ -30,7 +30,7 @@ export const DetailsProject = ({ openModal, setOpenModal }) => {
                   </h1>
                   <button
                     onClick={() => setOpenModal(false)}
-                    className="inline-flex justify-center rounded-md border border-transparent hover:shadow-sm hover:bg-gray-100  text-base font-medium text-whit focus:outline-none sm:w-auto sm:text-sm"
+                    className="mt-1 mb-1 justify-center rounded-md border border-transparent hover:shadow-sm hover:bg-gray-200  text-base font-medium text-whit focus:outline-none sm:w-auto sm:text-sm"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

@@ -66,6 +66,7 @@ export const Projects = [
         ],
         photo : QuinSDev,
         video: videoQuinSDev,
+        url: "#"
     },
     
 ]
