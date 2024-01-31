@@ -16,10 +16,10 @@ export const AboutMe = () => {
           <div className="lg:mt-10 md:mt-6 sm:mt-2">
           <h3 className="md:text-3xl sm:text-2xl text-xl text-white">Desarrollador FullStack</h3>
           <p className="mt-4 md:text-xl sm:text-lg text-base text-white">
-          Soy un apasionado de la tecnología con un amor por el aprendizaje constante. 
-          Mi curiosidad natural me llevó al mundo del desarrollo de software, donde he podido 
-          canalizar mi creatividad y mi amor por la resolución de problemas. A través de proyectos 
-          personales y cursos de formación, he adquirido una sólida comprensión de diversas 
+          Me encanta la tecnología y tengo amor por el aprendizaje constante. 
+          Mi curiosidad me llevó al mundo del desarrollo de software, donde he podido 
+          colocar mi creatividad y mi amor por la resolución de problemas. A través de proyectos 
+          personales y cursos de formación, he adquirido conocimiento de diversas 
           tecnologías y lenguajes de programación. Creo firmemente en el poder de la 
           tecnología para mejorar nuestras vidas y estoy emocionado de ser parte de ese viaje.
           </p>
