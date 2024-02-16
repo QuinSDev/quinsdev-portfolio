@@ -14,7 +14,7 @@ export const Project = () => {
 
   return (
     <div className="px-14 xl:px-32 py-10 lg:px-20 md:px-20 sm:px-16 h-full component">
-      <h2 className="md:text-5xl sm:text-4xl text-3xl font-bold text-white text-center">
+      <h2 className="2xl:mt-0 md:mt-8 md:text-5xl sm:text-4xl text-3xl font-bold text-white text-center">
         Últimos <span style={secondColor}>Proyectos</span>
       </h2>
       <div className="mt-24 flex justify-center h-full">
