@@ -16,12 +16,7 @@ export const AboutMe = () => {
           <div className="lg:mt-10 md:mt-6 sm:mt-2">
           <h3 className="md:text-3xl sm:text-2xl text-xl text-white">Desarrollador FullStack</h3>
           <p className="mt-4 xl:text-xl md:text-lg text-base text-white">
-          Me encanta la tecnología y tengo amor por el aprendizaje constante. 
-          Mi curiosidad me llevó al mundo del desarrollo de software, donde he podido 
-          colocar mi creatividad y mi amor por la resolución de problemas. A través de proyectos 
-          personales y cursos de formación, he adquirido conocimiento de diversas 
-          tecnologías y lenguajes de programación. Creo firmemente en el poder de la 
-          tecnología para mejorar nuestras vidas y estoy emocionado de ser parte de ese viaje.
+          Me encanta la tecnología y tengo un profundo amor por el aprendizaje constante. Mi curiosidad me llevó al mundo del desarrollo de software, donde he descubierto una gran pasión por el desarrollo Backend; el lugar ideal para canalizar mi creatividad y mi habilidad para la resolución de problemas lógicos. Mediante proyectos personales y formación técnica, he consolidado mis habilidades en la creación de soluciones robustas y eficientes desde el lado del servidor. Creo firmemente en el impacto de la tecnología para mejorar nuestras vidas y me emociona ser el arquitecto de las soluciones que lo hacen realidad.
           </p>
           </div>
         </div>
